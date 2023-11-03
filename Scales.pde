@@ -12,7 +12,7 @@ boolean breatheIn = false;  //whether currently breathing in or out
 float[] sclSpecs = {0, 0, -20, 20, -20, 40, 0, 60, 255, 255, 255, 155, 0, 255, 0, 200}; //x, y for anchor point 1; x, y for control point 1; x, y for control point 2; x, y for anchor point 2; red, green, blue, alpha for fill; red, green, blue, alpha for the stroke
 
 void setup(){
-  windowResize((int)wth, (int)hgt);
+  size(960, 540);
 }
 
 void draw(){
